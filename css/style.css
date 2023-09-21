@@ -1,0 +1,525 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY CODE*/
+
+* {
+
+}
+
+html {
+height: 100%;
+}
+
+body {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+
+footer {
+width: 100%;
+height: 140px;
+margin-top: auto;
+background-color: #F88158;
+}
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*MY CODE*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+overflow: hidden;
+}
+
+/* Smartphones (portrait) */
+@media only screen and (min-width: 300px) {
+main .landing-page header {
+    width: 100%;
+   height: 100px;
+    background-color: #1B1B23;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .landing-page header .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+main .landing-page header .logo-container .logo-link {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+main .landing-page header .logo-container .logo-link .logo-p {
+    color: #EDE9DD;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+main .landing-page header .index-nav .index-ul {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 35%;
+    background-color: #1B1B23;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-direction: column;
+    transition: all ease-in 0.8s;
+    opacity: 0;
+}
+
+main .landing-page header .hamburger-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.4s;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #EDE9DD;
+    border-radius: 2px;
+    transition: all ease 0.4s;
+    }
+
+    .line::before, .line::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background-color: #EDE9DD;
+        border-radius: 2px;
+        transition: all ease 0.4s;
+    }
+
+    .line::before {
+        transform: translateY(-8px);
+    }
+
+    .line::after {
+        transform: translateY(8px);
+    }
+
+main .landing-page header .index-nav .index-ul .index-li .index-link {
+color: #EDE9DD;
+font-family: 'Source Sans';
+font-size: 1rem;
+text-decoration: none;
+}
+
+main .landing-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(../img/background-image.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .landing-page .hero-section {
+max-width: 300px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 18px;
+margin: 60px 10px;
+margin-left: -300px;
+opacity: 0;
+animation: slideIn 0.7s ease-in forwards;
+}
+
+main .landing-page .hero-section .hero-h1 {
+color: #EDE9DD;
+font-family: Roboto;
+font-size: 2.125rem;
+font-weight: 700;
+text-shadow: 1px 1px 1px #1B1B23;
+}
+
+main .landing-page .hero-section .hero-p {
+color: #EDE9DD;
+font-family: Roboto;
+font-size: 0.875rem;
+font-weight: 200;
+line-height: 20px;
+text-shadow: 1px 1px 1px #1B1B23;
+}
+
+main .landing-page .hero-section .cta-btn {
+    display: flex;
+    width: 65%;
+    padding: 15px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+background: #1B1B23;
+color: #EDE9DD;
+flex-shrink: 0;
+text-align: center;
+font-family: Roboto;
+font-size: 1.25rem;
+font-style: normal;
+text-decoration: none;
+}
+
+/*Start of animation*/
+.hamburger-container.open .line {
+    background-color: transparent;
+}
+
+.hamburger-container.open .line::before {
+    transform: rotate(45deg) translate(0px, 0px);
+}
+
+.hamburger-container.open .line::after {
+    transform: rotate(-45deg) translate(0px, 0px);
+}
+
+@keyframes slideIn {
+    0% {
+        margin-left: -300px;
+        opacity: 0; 
+    }
+
+    100% {
+        margin-left: 10px;
+        opacity: 1;
+    }
+    
+}
+/*End of animation*/
+  }
+
+  @media only screen and (min-width:360px) {
+    main .landing-page .hero-section {
+        max-width: 240px;
+        margin: 140px 10px;
+        }
+  }
+
+  @media only screen and (min-width:390px) {
+    main .landing-page .hero-section {
+        margin: 180px 10px;
+        }
+  }
+
+  @media only screen and (min-width:400px) {
+    main .landing-page .hero-section {
+        margin: 190px 10px;
+        }
+  }
+
+  @media only screen and (min-width:500px) {
+    main .landing-page .hero-section {
+        max-width: 350px;
+        margin: 150px 10px;
+        }
+  }
+
+  @media only screen and (min-width: 700px) {
+    main .landing-page .hero-section {
+        max-width: 450px;
+        margin: 0px 10px;
+        }
+
+        main .landing-page .hero-section .hero-h1 {
+            font-size: 2.8125rem;
+            }
+
+            main .landing-page .hero-section .cta-btn {
+                width: 45%;
+                font-size: 1.625rem;
+            }
+  }
+
+  @media only screen and (min-width: 800px) {
+    main .landing-page .hero-section {
+        max-width: 400px;
+        margin: 0px 10px;
+        }
+
+            main .landing-page .hero-section .cta-btn {
+                width: 50%;
+                font-size: 1.625rem;
+            }
+  }
+
+  @media only screen and (min-width: 900px) {
+    main .landing-page .hero-section {
+        max-width: 540px;
+        margin: 40px 10px;
+        }
+
+        main .landing-page .hero-section .hero-h1 {
+            font-size: 3.125rem;
+            }
+
+            main .landing-page .hero-section .cta-btn {
+                font-size: 1.625rem;
+                width: 50%;
+            }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    main .landing-page .hero-section {
+        max-width: 600px;
+        margin: 130px 10px;
+        }
+
+        main .landing-page .hero-section .hero-h1 {
+            font-size: 3.125rem;
+            }
+
+            main .landing-page .hero-section .cta-btn {
+                font-size: 1.625rem;
+            }
+
+            main .landing-page header .index-nav .index-ul {
+                position: absolute;
+                top: 40px;
+                flex-direction: row;
+                justify-content: flex-end;
+                opacity: 1;
+                background-color: transparent;
+                margin-right: 10px;
+            }
+
+            main .landing-page header .index-nav .index-ul .index-li .index-link {
+                font-size: 1.125rem;
+                }
+
+            main .landing-page header .hamburger-container {
+                display: none;
+            }
+
+            main .landing-page header .logo-container .logo-link .logo-p {
+                font-size: 20px;
+            }
+  }
+  
+  
